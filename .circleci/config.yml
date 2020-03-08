@@ -6,7 +6,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: ynov-devops-tp2-team-9
+      IMAGE_NAME: tp2-team-9
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
